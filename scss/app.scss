@@ -11,7 +11,7 @@ $brand-warning:          #F2BA50 !default;
 $brand-danger:           #E36563 !default;
 
 // We import bootstrap
-@import "_bootstrap.scss";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 
 // We import our custom css stuff
 @import "_agronomic.scss";
