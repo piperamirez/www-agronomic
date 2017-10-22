@@ -1,0 +1,21 @@
+{
+  "name": "www-agronomic",
+  "homepage": "https://github.com/piperamirez/www-agronomic",
+  "authors": [
+    "Felipe Ramirez <feliperamirezg@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7"
+  }
+}
