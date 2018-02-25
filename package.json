@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "grunt sass copy"
+    "postinstall": "./node_modules/bower/bin/bower install && grunt sass copy"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,6 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-sass": "^1.2.1",
     "express": "^4.14.0",
-    "bower": "1.7.9",
-    "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-watch": "^1.0.0"
+    "bower": "1.7.9"
   }
 }
