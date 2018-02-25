@@ -2,7 +2,9 @@
   "name": "bootstrap-agronomic",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.js","engines": {
+    "node": "7.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "grunt sass copy"
