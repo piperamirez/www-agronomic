@@ -1,23 +1,149 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link rel="stylesheet" href="/css/bootstrap-agronomic.css">
-  <script src="/js/jquery/jquery.min.js"></script>
-  <script src="/js/bootstrap-sass/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
+<style>
+  body {
+   font-family: 'Work Sans', sans-serif;
+   font-weight: 300;
+  }
+  h2 {
+    color: green;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 20px 20px 20px 20px;
+  }
+  h3 {
+    padding: 20px 20px 20px 20px;
+    font-size: 30px;
+  }
+  .green-background {
+    background-color: #3ADC84;
+  }
+  .silver-background {
+    background-color: #EAEAEA;
+  }
+  p {
+    padding: 0px 20px 0px 20px;
+  }
+  .image-header {
+    width: auto;
+  }
+  .nombre-equipo {
+    font-size: 30px;
+    font-weight: 700;
+    color: gray;
+  }
+  .cargo-equipo {
+    font-size: 28px;
+    font-weight: 500;
+    color: gray;
+  }
+  .decripcion-equipo {
+    font-size: 25px;
+    font-weight: 300;
+    color: gray;
+  }
+  .form {
+    text-align: center;
+  }
+</style>
 
-  <!-- TODO: Remove from release version using grunt-dom-munger -->
-  <script src="//localhost:35729/livereload.js"></script>
+<!--Aquí termina el estilo y comienza el contenido de la página web
+-->
 
-</head>
-<body>
-  <div class="text-center">
-    <img class="launch-img" src="img/agronomic-logo-lg.svg">
-    <h2>Agronomic</h2>
-    <p>Agronomic es un servicio de asesoría integral para la administración de campos de cultivo.</p>
-    <a class="btn btn-primary" href="mailto:agronomic.chile@gmail.com?subject=Agronomic&body=¡Hola! Me interesa saber más sobre Agronomic.">
-      Quiero saber más
-    </a>
-  </div>
-</body>
-</html>
+<!--Sección HEADER IMAGEN
+-->
+
+<h1 style="font-family: 'Open Sans', sans-serif; font-size: 40px; font-weight: 300;">AGRONOMIC</h1>
+<a><img class="image-header" src="https://imagenes.forociudad.com/fotos/2734-parra-uvas.jpg" alt="uva de mesa header">
+</a>
+
+<main>
+  <h2 style="font-size: 40px">Gestión agrícola</h2>
+  <h2 style="color: silver;"> basada en los datos de tu campo</h2>
+
+<!--Sección 1 QUE HACEMOS Y POR QUÉ
+-->
+
+<div>
+  <h3>¿Qué hacemos?</h3>
+  <p>Agronomic ofrece un servicio de información para mejorar la gestión del productor agrícola, optimizando los procesos productivos y entregando información oportuna y continua para la toma de decisiones.</p>
+  <p>“La industria agrícola en la actualidad no sólo requiere de agricultura de precisión, debe ir acompañada de una gestión administrativa eficiente.”</p>
+</div>
+
+ <div class="green-background" style="color: white;">
+  <br>
+  <h3>¿Por qué los hacemos?</h3>
+    <p>Conocemos el sector agrícola y sus dificultados del HOY:
+    <ul>
+      <li>Pérdida de competitividad del sector agrícola</li>
+	    <li>Alta rotación de mano de obra</li>
+	    <li>Mano de obra más cara y menos experimentada</li>
+	    <li>Baja calidad y control de faenas agrícolas</li>
+	    <li>Déficit de modernización de la industria</li>
+	    <li>Baja planificación y control de gestión, presupuestaria y cumplimiento de producción</li>
+    </ul>
+    </p>
+    <br>
+ </div>
+
+<!--Sección 2 NUESTROS SERVICIOS
+-->
+<div>
+  <h3>Nuestros servicios</h3>
+  <p>En complemento con el cliente y por medio de herramientas  tecnológicas capturamos y procesamos datos diarios para la generación de reportes con indicadores claves de desempeño.</p>
+  <ul>
+    <li>Accede a indicadores reales, para la toma de decisiones oportuna en los procesos productivos</li>
+    <li>Mide con indicadores claves de desempeño para evaluar y clasificar aptitudes de tus trabajadores</li>
+    <li>Formaliza la relación con prestadores de servicios de terceros y profesionalizar su desempeño</li>
+    <li>Accede al análisis de bases comparativas de otros productores para medir tu desempeño</li>
+    <li>Promueve políticas de incentivos u otras para disminuir la rotación de mano de obra</li>
+  </ul>
+</div>
+
+<!--Sección 3 NIVELES DE SERVICIO
+-->
+<div>
+  <h3>Niveles de servicio</h3>
+  <ul>
+    <li>Reporte básico de desempeño por productor:rendimiento, tarifa y jornales.</li>
+    <li>Reporte básico de resultados por productor: Costos totales y producción.</li>
+    <li>Reporte avanzado de desempeño por trabajador: rendimiento, tarifa, calidad asistencia y confiabilidad.</li>
+    <li>Reporte anual: diagnóstico inicial, ecuación productiva, presupuesto, requerimiento de jornales y consumo de agua.</li>
+    <li>Reporte mensual: seguimiento de ecuación productiva y gastos reales</li>
+  </ul>
+</div>
+
+<!--Sección 4 EQUIPO
+-->
+<div class="silver-background">
+  <h3>Nuestro Equipo</h3>
+  <p class="nombre-equipo">Antonio Morales</p>
+  <p class="cargo-equipo">Director Ejecutivo</p>
+  <p class="descripcion-equipo">Consultor y Asesor Agrícola. Más de 30 años de trayectoria en el sector agrícola asesorando grandes y medianos productores, exportadores. </p>
+  <br>
+  <p class="nombre-equipo">Rodrigo Fuentes</p>
+  <p class="cargo-equipo">Consultor Comercial</p>
+  <p class="descripcion-equipo">Ingeniero Comercial y Facility Management</p>
+  <br>
+  <p class="nombre-equipo">Rafael Bay</p>
+  <p class="cargo-equipo">Consultor Financiero</p>
+  <p class="descripcion-equipo">Ingeniero agrónomo mención en .... experto en ...</p>
+</div>
+
+<!--Sección 5 FORMULARIO
+-->
+</main>
+<br>
+
+<form class="form" action="index.html" method="post">
+  <h3>Conversémos</h3>
+  <p>¿Quieres más información? Déjanos tus datos.</p>
+  <p>Nombre</p>
+  <input type="text" name="" value="" placeholder="Nombre completo">
+  <p>Email</p>
+  <input type="text" name="" value="" placeholder="Email de contacto">
+  <p>Comentario</p>
+  <input type="text" name="" value="" placeholder="¿Algún comentario?">
+  <br>
+  <button type="submit" name="button">Enviar</button>
+</form>
