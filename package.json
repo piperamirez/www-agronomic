@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/grunt/bin/grunt serve",
     "postinstall": "./node_modules/bower/bin/bower install && grunt sass copy"
   },
   "repository": {

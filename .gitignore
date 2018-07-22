@@ -6,7 +6,3 @@ package-lock.json
 
 scss/_bootstrap*.scss
 scss/bootstrap/*
-www/css/bootstrap*
-www/fonts/glyphicons*
-www/js/bootstrap*
-www/js/jquery*
