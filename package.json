@@ -8,9 +8,7 @@
     "npm": "5.5.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/grunt/bin/grunt serve",
-    "postinstall": "./node_modules/bower/bin/bower install && grunt sass copy"
+    "start": "node_modules/grunt/bin/grunt serve"
   },
   "repository": {
     "type": "git",
@@ -23,15 +21,15 @@
   },
   "homepage": "https://github.com/piperamirez/bootstrap-agronomic#readme",
   "devDependencies": {
-    "socket.io": "^1.4.8",
     "grunt-contrib-connect": "^1.0.2",
-    "grunt-contrib-watch": "^1.0.0"
+    "grunt-contrib-watch": "^1.0.0",
+    "socket.io": "^2.1.1"
   },
   "dependencies": {
+    "bower": "1.8.4",
+    "express": "^4.14.0",
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-sass": "^1.2.1",
-    "express": "^4.14.0",
-    "bower": "1.8.4"
+    "grunt-sass": "^3.0.1"
   }
 }
